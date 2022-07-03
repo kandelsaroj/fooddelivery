@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: #fe6801;
+    color: white;
+}
+.navbar{
+    background-color:antiquewhite;
+}
+#navsection{
+    background-color: #fe6801;
+    color: whitesmoke;
+    position: sticky;
+    top: 0px;
+  
+}
+.navbar ul li a{
+    color: black;
+}
+
+
+
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-item{
+    color: black ;
+}
+#navsection a{
+    color: whitesmoke;
+}
+.maincard{
+    background-color:whitesmoke;
+    height: 200px;
+    display:inline-block;
+    padding: 40px;
+    height: auto;
+
+}
+.popularitem{
+    background-color:whitesmoke;
+    padding: 10px;
+}
+.popularitem h2{
+    text-align: center;
+}
+.maincard h3{
+    text-align: center;
+
+}
+.maincard .btn{
+    background-color: #fe6801;
+}
+.maincard .card {
+    text-align: center;
+    float:left;
+    margin-left: 20px;
+
+}
+.carousel-item{
+    align-items: center;
+}
+.carousel-item  .input-group{
+    position:absolute;
+    top: 150px;
+    left: 300px;
+    
+}
+#form1{
+width: 300%;
+
+}
+.input-group #searchbtn{
+    position: absolute;
+    left: 620px;
+    top:1px;
+}
+.carousel-item h3{
+    position: absolute;
+    top: 185px;
+    left: 400px;
+
+}
+.carousel-item p{
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    color:black;
+  
+
+}
+@media only screen and (max-width: 400px) {
+    .input-group #searchbtn{
+        position:absolute;
+        left: 410px;
+    }
+    .carousel-item .input-group{
+        position:absolute;
+        top: 150px;
+        left: 10px;
+        
+  }
+  #form1{
+    width: 200%;
+    
+    }
+}
+@media only screen and (max-width: 200px) {
+    .input-group #searchbtn{
+        position:absolute;
+        left: 300px;
+    }
+    .carousel-item .input-group{
+        position:absolute;
+        top: 150px;
+        left: 10px;
+        
+  }
+  #form1{
+    width: 150%;
+    
+    }
+}
+@media only screen and (max-width: 768px) {
+    .input-group #searchbtn{
+        position:absolute;
+        left: 300px;
+    }
+    .carousel-item .input-group{
+        position:absolute;
+        top: 150px;
+        left: 250px;
+        
+  }
+  #form1{
+    width: 150%;
+    
+    }
+}
+.why-us{
+    background-color: #fe6801;
+    color: whitesmoke;
+    padding: 10px;
+}
+.why-us h2{
+    text-align: center;
+}
+.row .box{
+    border: solid 1px black;
+    padding: 5px;
+}
+.ordersteps a{
+    text-decoration: none;
+    color: #fe6801;
+}
+.ordersteps .fa{
+    
+    color: #fe6801;
+}
+
+
+.testimonial{
+    margin-top: 20px;
+    margin-bottom: 20px;;
+   
+}
+
+.testimonial .card{
+text-align: center;
+align-items: center;
+padding: 5px;
+background-color: whitesmoke;
+color: #fe6801;
+
+}
+.img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
