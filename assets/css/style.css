@@ -48,11 +48,18 @@
 .popularitem h2{
     text-align: center;
 }
+.topseller .card{
+    height: 50vh;
+}
 .maincard h3{
     text-align: center;
 
 }
 .maincard .btn{
+    background-color: #fe6801;
+}
+
+.topseller .btn{
     background-color: #fe6801;
 }
 .maincard .card {
