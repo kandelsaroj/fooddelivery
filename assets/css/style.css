@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container-fluid{
-    background-color: #fe6801;
+    background-color: #ff6600;
     color: white;
 }
 .navbar{
@@ -15,6 +15,7 @@
     color: whitesmoke;
     position: sticky;
     top: 0px;
+    z-index: 1;
   
 }
 .navbar ul li a{
